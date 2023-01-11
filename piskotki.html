@@ -1,0 +1,58 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Obvestilo o pi&scaron;kotkih | Zmaga.com</title>
+	<title></title>
+	<link href="piskotki_css.css" rel="stylesheet" />
+</head>
+<!--
+jQuery Sliding DIV with Cookies
+http:/fredthewebchap.com
+--><!-- META --><!-- CSS --><!-- JS --><script src="http://code.jquery.com/jquery-latest.js"></script><script src="js/jquery.cookie.js"></script><script src="js/cookie_obvestilo.js"></script><script type="text/javascript">
+
+if ($.cookie('cookies_enable')) {
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-123456-78']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  
+}  //end: if cookie
+
+</script>
+<body><!-- SPOROČILO -->
+<div id="message">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody>
+		<tr>
+			<td height="35">
+			<div class="cookie_text">
+			<div align="center">Za bolj&scaron;o izku&scaron;njo brskanja po na&scaron;ih spletnih straneh, vam priporočamo, da omogočite pi&scaron;kotke?&nbsp;&nbsp;&nbsp;<a class="cookie_accept" href="#" onclick="hideForever(); return false;">Strinjam se</a> | <span class="cookie_hide"><a class="cookie_hide" href="#" onclick="hideMessage(); return false;">Skrij to obvestilo</a></span> | <a class="cookie_info" href="piskotki.html">Preberi več</a></div>
+			</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+<!-- SPOROČILO -->
+
+<div align="center" id="top">
+<h1 align="center">Kaj so pi&scaron;kotki?</h1>
+
+<p align="center">Pi&scaron;kotek je majhna datoteka, ki se shrani na računalniku ob obisku spletne strani. Pi&scaron;kotki vsebujejo različne informacije, ki jih spletna stran prebere, ko jo ponovno obi&scaron;čete. Uporablja jih večina sodobnih spletnih strani. Na <a href="http://www.zmaga.com">www.zmagadvornik.com</a> vam je na voljo veliko dodatne pomoči, če jo boste potrebovali.</p>
+
+<h2 align="center">Prikaz uporabe obvestila o pi&scaron;kotkih</h2>
+
+<p align="center">Obvestilo o pi&scaron;kotkih bo prikazano eno sekundo po tem, ko bo naložena cela stran.</p>
+
+<p align="center">Po kliku na povezavo &quot;Strinjam se&quot; se obvestilo ne bo več prikazovalo.</p>
+
+<p align="center"><a href="#" onclick="hideForever(); return false;">Strinjam se z uporabo</a> | <a href="#" onclick="showMessage(); return false;">Prikaži sporočilo o pi&scaron;kotkih</a> | <a href="#" onclick="hideMessage(); return false;">Skrij sporočilo o pi&scaron;kotkih</a> | <a href="#" onclick="deleteCookie(); return false;">Izbri&scaron;i pi&scaron;kotek za potrditev</a></p>
+</div>
+</body>
+</html>

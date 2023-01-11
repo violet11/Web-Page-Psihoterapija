@@ -1,0 +1,8 @@
+body {margin: 0; padding: 0; }
+
+#message {width: 100%; text-align: center; background: #546171; display: none;}
+
+.cookie_text {font-size: 14px; font-family: Tahoma; letter-spacing: 0px; color: #ffffff; text-align:center; }
+.cookie_accept { font-size: 14px; font-family: Tahoma; letter-spacing: 0px; color: #62da2c; text-align:center; text-decoration: underline;}
+.cookie_hide { font-size: 14px; font-family: Tahoma; letter-spacing: 0px; color: #ff7676; text-align:center; text-decoration: underline;}
+.cookie_info { font-size: 14px; font-family: Tahoma; letter-spacing: 0px; color: #fcf1b5; text-align:center; text-decoration: underline;}
